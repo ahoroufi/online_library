@@ -7,5 +7,10 @@
 </head>
 <body>
     <div>This is the list of all books.</div>
+    <ul>
+    <% for(book of books) { %>
+        <li><%= book.title %></li>
+    <% } %>
+    </ul>    
 </body>
 </html>
